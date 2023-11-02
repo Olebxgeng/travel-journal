@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    overflow: hidden; 
+    height: fit-content;
+}
+
+.navbar, .container, .travel-description, .location-details{
+    display: flex;
+}
+.navbar{
+    gap: 0.6rem;
+    justify-content: center;
+    align-items: center;
+    background: #F55A5A;
+    color: #fff;
+    margin-left: -10rem;
+    margin-bottom: 4rem;
+}
+
+.container{
+    width: 600px;
+    height: 252px;
+    gap: 1rem;
+    margin: 0 auto -70px; 
+}
+
+img{
+    width: 125px;
+    height: 168px;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.travel-description{
+    width: 368px;
+    height: 168px;
+    flex-direction: column;
+    justify-content: start;
+    gap: 0;
+    
+}
+
+.location-details{
+    align-items: center;
+    gap: 0.5rem;
+}
+.location-details p{
+    font-size: 0.64rem;
+}
+
+.g-maps{
+    color: #918E9B;
+    text-decoration-line: underline;
+    font-size: 0.64rem;
+    font-weight: 400;
+}
+h1{
+    font-size: 1.56rem;
+    margin: 0 0 0.5rem 0;
+}
+.dates{
+    font-weight: 700;
+}
+
+.description{
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.dates, .description{
+    font-size: 0.64rem;
+    margin: 0.8rem 0 0 0;
+}
